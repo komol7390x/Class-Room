@@ -48,4 +48,6 @@ let res = student1.introduction.bind(student2);
 console.log(res());
 
 console.log();
+console.log();
+
 
