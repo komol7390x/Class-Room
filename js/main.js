@@ -33,21 +33,21 @@
 // let res = greet.apply(personName, ["Good morning", "How are you?"])
 // console.log(res);
 
-const student1 = {
-    name: "Jack",
-    garde: "5",
-    introduction: function () {
-        console.log(`${this.name} studies in grade ${this.garde}.`);
-    }
-}
-const student2 = {
-    name: "Jimmy",
-    garde:"6"
-}
-let res = student1.introduction.bind(student2);
-console.log(res());
+// const student1 = {
+//     name: "Jack",
+//     garde: "5",
+//     introduction: function () {
+//         console.log(`${this.name} studies in grade ${this.garde}.`);
+//     }
+// }
+// const student2 = {
+//     name: "Jimmy",
+//     garde:"6"
+// }
+// let res = student1.introduction.bind(student2);
+// console.log(res());
 
-console.log();
-console.log();
+// console.log();
+// console.log();
 
 
