@@ -45,3 +45,32 @@ console.log("-------------------------");
 capitals.forEach((capital, country) => {
     console.log(`${country}: ${capital}`);
 })
+// ----------------------------------------------------
+const set = new Set()
+
+//Adding values
+set.add("Banana")
+set.add("apple")
+set.add("cherry")
+set.add("Banana")
+
+//Checking existence
+console.log(set.has("Banana"));
+console.log(set.has("date"));
+
+//Deleting a value
+console.log(set.has("cherry"));
+set.delete("cherry")
+console.log(set.has("cherry"));
+
+//Size of the set
+console.log(set.size);
+
+//Iterating over Set
+set.forEach((val) => {
+    console.log(val);
+})
+
+console.log(set);
+// ----------------------------------------------------
+
