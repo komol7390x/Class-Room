@@ -24,3 +24,24 @@ map.forEach((val, key) => {
     console.log(`${key}: ${val}`);
 })
 // ----------------------------------------------------
+const capitals = new Map([
+    ["USA", "Washington D.C."],
+    ["Canada", "Ottawa"],
+    ["UK","London"]
+])
+console.log("-------------------------");
+//Using for ... of with entrise()
+for (const [country, capital] of capitals.entries()) {
+    console.log(`${country}: ${capital}`);
+}
+console.log("-------------------------");
+
+//Using for ...of directly on MAp()
+for (const [country, capital] of capitals) {
+    console.log(`${country}: ${capital}`);
+}
+console.log("-------------------------");
+//Using forEach()
+capitals.forEach((capital, country) => {
+    console.log(`${country}: ${capital}`);
+})
